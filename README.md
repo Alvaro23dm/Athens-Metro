@@ -10,14 +10,14 @@ Here's how the code works:
 
 - src/algoritmo.py: This file defines the A* algorithm to find the shortest path between two metro stations. It also contains supporting functions to calculate the direct travel time between two nodes using the Haversine formula and other utility functions required for the A* algorithm.
 
-- Main.py: This file imports the Interfaz class from src.interfaz and runs the GUI.
+- main.py: This file imports the Interfaz class from src.interfaz and runs the GUI.
 
 # How to run the code # 
 
 To execute the code, make sure all the files are in the correct directory structure as described above. Then, simply run the Main.py script:
 
 ```python
-python Main.py
+python main.py
 ```
 
 The GUI window will open, allowing you to enter the names of the start and destination metro stations. After clicking the "OK" button, it will display the optimal route and the estimated travel time on the map. If the entered station names are invalid or not found, an error message will be displayed.
